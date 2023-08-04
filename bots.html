@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <meta name="author" content="Yuriy Zudikhin" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <div class="header_block">
+          <a class="header_block_logo" href="#">
+            <img src="img/header/logo.svg" alt="">
+          </a>
+          <div class="header_block_other">
+            <ul class="header_block_other_nav">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Venture Capital</a>
+              </li>
+              <li class="active">
+                <a href="#">Trading-Bots</a>
+              </li>
+              <li>
+                <a href="#">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">News</a>
+              </li>
+            </ul>
+            <div class="header_block_other_lang">
+              <div class="header_block_other_lang_top">
+                <span>DE</span>
+                <img src="img/header/arrow.svg" alt="">
+              </div>
+              <div class="header_block_other_lang_content">
+                <ul>
+                  <li>
+                    <a href="#">EN</a>
+                  </li>
+                  <li>
+                    <a href="#">RU</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a class="header_block_other_reg" href="#">anmeldung</a>
+            <a class="header_block_other_reg" href="#">Registrieren</a>
+            <div class="header_block_other_btn">
+              <img src="img/header/dropdown.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main bots">
+      <div class="container">
+        <div class="main_block">
+          <div class="main_block_text">
+            <h1>Trading Bots</h1>
+            <p>Der OkiFin Trading-Bot ist ein fortschrittliches Handelsinstrument, um einen automatisierten Handel im Kryptomarkt zu ermöglichen. Mit seiner robusten API-Integration kann der Bot sich direkt mit Ihrer bestehende Handelsplattform verbinden, um Orders in Echtzeit basierend auf den von Ihnen festgelegten Parametern an die Börse zu übermitteln und auszuführen.
+            </p>
+          </div>
+          <div class="main_block_img">
+            <img src="img/main/1_bots.png" alt="">
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="functionality">
+      <div class="container">
+        <div class="functionality_block">
+          <h2>Funktionsweise</h2>
+          <p class="functionality_block_text">Bei OkiFin haben wir unsere Trading-Bots so konzipiert, dass sie sowohl im Futures - als auch im Spot-Handel optimal funktionieren.</p>
+          <div class="functionality_block_list">
+            <div class="functionality_block_list_item">
+              <div class="functionality_block_list_item_top">
+                <img src="img/main/func.svg" alt="">
+                <h4>Strategieauswahl</h4>
+              </div>
+              <div class="functionality_block_list_item_wrap">
+                <p>Der Trader entscheidet bei Futures zwischen einer Long- oder Short-Handelsstrategie, basierend auf der Markteinschätzung.</p>
+              </div>
+            </div>
+
+            <div class="functionality_block_list_item">
+              <div class="functionality_block_list_item_top">
+                <img src="img/main/func.svg" alt="">
+                <h4>Gesamtmenge</h4>
+              </div>
+              <div class="functionality_block_list_item_wrap">
+                <p>Hier wird die Gesamtmenge des zu handelnden Assets festgelegt, die in den nachfolgenden Trades zum Einsatz kommt.</p>
+              </div>
+            </div>
+
+            <div class="functionality_block_list_item">
+              <div class="functionality_block_list_item_top">
+                <img src="img/main/func.svg" alt="">
+                <h4>Handelsspanne</h4>
+              </div>
+              <div class="functionality_block_list_item_wrap">
+                <p>Bestimmt das Preisintervall, in dem die Trades durchgeführt werden.</p>
+              </div>
+            </div>
+
+            <div class="functionality_block_list_item">
+              <div class="functionality_block_list_item_top">
+                <img src="img/main/func.svg" alt="">
+                <h4>Orderanzahl</h4>
+              </div>
+              <div class="functionality_block_list_item_wrap">
+                <p>Der Bot berechnet die maximale Anzahl von Orders, die basierend auf der kleinstmöglichen Ordergröße und der angegebenen Gesamtmenge sowie Handelsspannen platziert werden können.</p>
+              </div>
+            </div>
+
+            <div class="functionality_block_list_item">
+              <div class="functionality_block_list_item_top">
+                <img src="img/main/func.svg" alt="">
+                <h4>Hedging</h4>
+              </div>
+              <div class="functionality_block_list_item_wrap">
+                <p>Bei Futures wird die Größe der Hedging-Orders festgelegt, die sich wahlweise auf die vorherige Position oder Saldo beziehen, um das finanzielle Risiko bei Marktvolatilität zu minimieren.</p>
+              </div>
+            </div>
+
+            <div class="functionality_block_list_item">
+              <div class="functionality_block_list_item_top">
+                <img src="img/main/func.svg" alt="">
+                <h4>Wachstumsverhältnis</h4>
+              </div>
+              <div class="functionality_block_list_item_wrap">
+                <p>Bestimmt, wie sich die Größe der Orders mit jedem nachfolgenden Trade verändert. Ein positives Wachstumsverhältnis erhöht die Ordergröße mit jedem Trade, während ein negatives sie verringert.</p>
+              </div>
+            </div>
+
+            <div class="functionality_block_list_item">
+              <div class="functionality_block_list_item_top">
+                <img src="img/main/func.svg" alt="">
+                <h4>Take-Profit und Stop-Loss</h4>
+              </div>
+              <div class="functionality_block_list_item_wrap">
+                <p>Diese Funktion erlaubt die Festlegung des Gewinns, den man erzielen möchte. Auf Basis des aktuellen Break-Even-Point (BEP) erfolgt eine automatische Berechnung und Anpassung des Take-Profit (TP) sowie Stop-Loss (SL) der Hedging-Positionen.</p>
+              </div>
+            </div>
+
+            <div class="functionality_block_list_item">
+              <div class="functionality_block_list_item_top">
+                <img src="img/main/func.svg" alt="">
+                <h4>Tradingprofile</h4>
+              </div>
+              <div class="functionality_block_list_item_wrap">
+                <p>Erlaubt nicht nur die Speicherung von Profilen mit festgelegten Parametern für zukünftige Trades, sondern auch das Abrufen von empfohlenen Handelsstrategien, um optimale Trading-Entscheidungen zu treffen.</p>
+              </div>
+            </div>
+
+            <div class="functionality_block_list_item">
+              <div class="functionality_block_list_item_top">
+                <img src="img/main/func.svg" alt="">
+                <h4>Tradingplan</h4>
+              </div>
+              <div class="functionality_block_list_item_wrap">
+                <p>Auf Basis der angegebenen Parameter erstellt der Bot einen detaillierten Tradingplan und übermittelt die entsprechenden Orders zur Ausführung an die Börse.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="exchange">
+      <div class="container">
+        <div class="exchange_block">
+          <h2>Unterstützte Börsen</h2>
+          <div class="exchange_block_table">
+
+            <div class="exchange_block_table_row">
+              <div class="exchange_block_table_row_item">
+                <p>Börse</p>
+              </div>
+              <div class="exchange_block_table_row_item">
+                <p>Futures-Market</p>
+              </div>
+              <div class="exchange_block_table_row_item">
+                <p>Spot-Market</p>
+              </div>
+            </div>
+
+            <div class="exchange_block_table_row">
+              <div class="exchange_block_table_row_item">
+                <p>Mexc</p>
+              </div>
+              <div class="exchange_block_table_row_item">
+                <div class="exchange_block_table_row_item_img">
+                  <img src="img/exchange/1.svg" alt="">
+                </div>
+              </div>
+              <div class="exchange_block_table_row_item">
+                <div class="exchange_block_table_row_item_img">
+                  <img src="img/exchange/1.svg" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="exchange_block_table_row">
+              <div class="exchange_block_table_row_item">
+                <p>Okx</p>
+              </div>
+              <div class="exchange_block_table_row_item">
+                <div class="exchange_block_table_row_item_img">
+                  <img src="img/exchange/1.svg" alt="">
+                </div>
+              </div>
+              <div class="exchange_block_table_row_item">
+                <div class="exchange_block_table_row_item_img">
+                  <img src="img/exchange/1.svg" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="development">
+      <div class="container">
+        <div class="development_block">
+          <div class="development_block_left">
+            <h3>Entwicklung</h3>
+            <p>Bei OkiFin liegt ein besonderer Fokus auf der fortlaufenden Weiterentwicklung der Trading-Bots. Im Zuge von technischen Verbesserungen streben wir nicht nur nach einer stetigen Automatisierung und Optimierung der Handelsalgorithmen, sondern auch nach der Implementierung KI-gestützter Funktionen. Unser Ziel ist es, durch künstliche Intelligenz effizientere und profitablere Handelserfahrungen für unsere Nutzer zu ermöglichen.</p>
+          </div>
+          <div class="development_block_right">
+            <img src="img/development/dev_1.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_block">
+          <div class="footer_block_left">
+            <img src="img/footer/logo.svg" alt="">
+          </div>
+          <div class="footer_block_mid">
+            <div class="footer_block_mid_item">
+              <h4>Unternehmen</h4>
+              <ul>
+                <li>
+                  <a href="#">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#">News</a>
+                </li>
+                <li>
+                  <a href="#">Über uns</a>
+                </li>
+                <li>
+                  <a href="#">Kontakt</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_block_mid_item">
+              <h4>Ecosystem</h4>
+              <ul>
+                <li>
+                  <a href="#">Venture Capital</a>
+                </li>
+                <li>
+                  <a href="#">Trading-Bots</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_block_mid_item">
+              <h4>Legal Information</h4>
+              <ul>
+                <li>
+                  <a href="#">Datenschutz</a>
+                </li>
+                <li>
+                  <a href="#">Impressum</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_block_mid_item">
+              <h4>Community</h4>
+              <div class="footer_block_mid_item_list">
+                <a href="#">
+                  <img src="img/footer/twitter.svg" alt="">
+                </a>
+                <a href="#">
+                  <img src="img/footer/facebook.svg" alt="">
+                </a>
+                <a href="#">
+                  <img src="img/footer/insta.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_under">
+          <div class="footer_under_left">
+            <p>© 2023  OkiFin</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="dropdown">
+      <div class="dropdown_top">
+        <div class="dropdown_top_close">
+          <img src="img/header/close.svg" alt="">
+        </div>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Venture capital</a>
+        </li>
+        <li class="active">
+          <a href="#">Trading-Bots</a>
+        </li>
+        <li>
+          <a href="#">Portfolio</a>
+        </li>
+        <li>
+          <a href="#">News</a>
+        </li>
+      </ul>
+      <div class="dropdown_btns">
+        <a href="#">Anmelden</a>
+        <a href="#">Registrieren</a>
+      </div>
+      <div class="dropdown_link">
+        <a href="#">
+          <img src="img/footer/tel.svg" alt="">
+        </a>
+        <a href="#">
+          <img src="img/footer/mail.svg" alt="">
+        </a>
+      </div>
+    </div>
+
+    <div class="back_modal"></div>
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
+
+
